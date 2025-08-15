@@ -1,6 +1,6 @@
 # Socat Manager
 
-**Auto-manages `socat` port forwards from a config file by monitoring active listeners.**
+**Auto-manages `socat` tcp port forwards from a config file by monitoring active listeners.**
 
 This script checks for active TCP listeners on your system and automatically starts or stops `socat` processes based on a simple configuration file.  
 It’s useful for exposing local services (e.g., from AWS SSM port forwarding) to other machines.
